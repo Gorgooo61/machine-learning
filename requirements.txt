@@ -3,4 +3,3 @@ numpy
 pandas
 streamlit
 catboost
-python<3.12
