@@ -7,12 +7,12 @@ import streamlit as st
 from catboost import CatBoostRegressor
 
 loaded_model = CatBoostRegressor()
-loaded_model.load_model('D:/machine learning/Final_codes/catboost_model.cbm')
-brand_encoder = joblib.load('D:/machine learning/Final_codes/brand_encoder.pkl')
+loaded_model.load_model('./Final_codes/catboost_model.cbm')
+brand_encoder = joblib.load('./Final_codes/brand_encoder.pkl')
 
 st.header('Car Price Prediction Web Site (FORZA FERRARI)')
 
-df = pd.read_csv('D:/machine learning/Final_codes/exported_used_cars.csv')
+df = pd.read_csv('./Final_codes/exported_used_cars.csv')
 
 
 
