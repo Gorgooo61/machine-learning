@@ -2,4 +2,5 @@ joblib
 numpy
 pandas
 streamlit
-catboost
+catboost==1.2.7
+scikit-learn
