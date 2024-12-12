@@ -43,7 +43,7 @@ fuel_types = ['Gasoline', 'Hybrid', 'E85 Flex Fuel', 'Diesel', 'Plug-In Hybrid',
 selected_fuel_type = st.selectbox("Select fuel type:", fuel_types)
 
 age = st.slider("Model Year (pl. 2020):",  2000,2024)
-milage = st.slider("Milage (pl. 50000):",  0,200000)
+milage = st.slider("Mileage (pl. 50000):",  0,200000)
 #engine = st.text_input("Engine (pl. 2.0L):", "")
 
 
